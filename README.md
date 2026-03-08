@@ -1,36 +1,36 @@
 # Acorny Feedback
 
-这里是 [Acorny](https://github.com/acorny-org) 的用户反馈仓库。
+This is the feedback repository for [Acorny](https://github.com/acorny-org).
 
-Acorny 是一款 Chrome 扩展，帮助你收集和管理网页高亮，并通过间隔重复（Spaced Repetition）定期回顾，让知识真正留下来。
+Acorny is a Chrome extension that helps you collect and manage web highlights, and review them through spaced repetition so the knowledge actually sticks.
 
-## 如何提交反馈
+## How to Submit Feedback
 
-点击 [**New Issue**](https://github.com/acorny-org/feedback/issues/new/choose) 选择对应模板：
+Click [**New Issue**](https://github.com/acorny-org/feedback/issues/new/choose) and choose a template:
 
-- **🐛 Bug 报告** — 遇到问题或异常行为时提交
-- **💡 功能建议** — 希望新增功能或改进现有功能时提交
+- **🐛 Bug Report** — Something isn't working as expected
+- **💡 Feature Request** — Suggest a new feature or improvement
 
-## 反馈处理流程
+## Feedback Process
 
-| 阶段 | 说明 |
-|------|------|
-| 收到反馈 | Issue 创建后自动标记分类 |
-| 确认中 | 团队评估问题或建议的可行性 |
-| 已排期 | 纳入开发计划 |
-| 已完成 | 修复或上线后关闭 Issue |
+| Stage | Description |
+|-------|-------------|
+| Received | Issue is created and automatically labeled |
+| Triaging | Team evaluates the issue or suggestion |
+| Planned | Added to the development roadmap |
+| Resolved | Fixed or shipped, issue closed |
 
-## 提交反馈前
+## Before Submitting
 
-- 请先搜索 [已有 Issue](https://github.com/acorny-org/feedback/issues)，避免重复提交
-- Bug 报告请尽量提供复现步骤和截图
-- 功能建议请描述使用场景，帮助我们理解需求背景
+- Search [existing issues](https://github.com/acorny-org/feedback/issues) first to avoid duplicates
+- For bug reports, include steps to reproduce and screenshots if possible
+- For feature requests, describe your use case to help us understand the context
 
-## 相关链接
+## Links
 
-- 扩展下载：即将上线 Chrome Web Store
-- 官网：即将上线
+- Extension: Coming soon to Chrome Web Store
+- Website: Coming soon
 
 ---
 
-感谢你帮助 Acorny 变得更好！
+Thanks for helping make Acorny better!

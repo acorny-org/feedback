@@ -1,75 +1,75 @@
-name: 🐛 Bug 报告
-description: 报告一个 Bug 帮助我们改进
+name: "\U0001F41B Bug Report"
+description: Report a bug to help us improve
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        感谢你花时间提交 Bug 报告！请尽量填写以下信息，帮助我们更快定位和修复问题。
+        Thanks for taking the time to report a bug! Please fill in as much detail as possible to help us locate and fix the issue faster.
 
   - type: textarea
     id: description
     attributes:
-      label: 问题描述
-      description: 简要描述你遇到的问题
-      placeholder: 例：点击「开始复习」后页面白屏，无法进入复习界面
+      label: Description
+      description: Briefly describe the problem you encountered
+      placeholder: "e.g. After clicking 'Start Review', the page goes blank and the review interface doesn't load"
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: 复现步骤
-      description: 按步骤描述如何复现这个问题
+      label: Steps to Reproduce
+      description: Describe step by step how to reproduce the issue
       placeholder: |
-        1. 打开扩展弹窗
-        2. 点击「开始复习」
-        3. 页面显示白屏
+        1. Open the extension popup
+        2. Click 'Start Review'
+        3. Page goes blank
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: 期望行为
-      description: 你期望发生什么
-      placeholder: 例：应该正常进入复习界面，显示待复习的高亮卡片
+      label: Expected Behavior
+      description: What did you expect to happen
+      placeholder: "e.g. Should enter the review interface and display highlight cards"
     validations:
       required: true
 
   - type: textarea
     id: actual
     attributes:
-      label: 实际行为
-      description: 实际发生了什么
-      placeholder: 例：页面白屏，控制台报错 TypeError
+      label: Actual Behavior
+      description: What actually happened
+      placeholder: "e.g. Blank page, console shows TypeError"
     validations:
       required: true
 
   - type: textarea
     id: screenshots
     attributes:
-      label: 截图 / 录屏
-      description: 如果方便，请提供截图或录屏帮助我们理解问题
-      placeholder: 拖拽图片到此处上传
+      label: Screenshots / Screen Recording
+      description: If possible, attach screenshots or a screen recording to help us understand the issue
+      placeholder: Drag and drop images here to upload
 
   - type: dropdown
     id: browser
     attributes:
-      label: 浏览器
+      label: Browser
       options:
         - Chrome
         - Edge
         - Brave
         - Arc
-        - 其他（请在补充信息中说明）
+        - Other (please specify in additional info)
     validations:
       required: true
 
   - type: dropdown
     id: os
     attributes:
-      label: 操作系统
+      label: Operating System
       options:
         - Windows
         - macOS
@@ -80,14 +80,14 @@ body:
   - type: input
     id: version
     attributes:
-      label: 扩展版本
-      description: 可在扩展管理页面 (chrome://extensions) 查看
-      placeholder: 例：v0.1.0
+      label: Extension Version
+      description: You can find this on the extensions page (chrome://extensions)
+      placeholder: "e.g. v0.1.0"
     validations:
       required: true
 
   - type: textarea
     id: additional
     attributes:
-      label: 补充信息
-      description: 其他你认为有帮助的信息（如控制台报错、浏览器版本等）
+      label: Additional Info
+      description: Any other information you think might be helpful (e.g. console errors, browser version)
